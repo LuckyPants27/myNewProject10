@@ -38,7 +38,9 @@ public class Main {
         if (deliveryDistance <= 0) {
             return 0;
         }
+
         int deliveryDays = 0;
+
         if (deliveryDistance <= 20) {
             deliveryDays++;
             return deliveryDays;
